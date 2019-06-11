@@ -22,5 +22,5 @@
     
 ## Output:-
     * The generated node and label embeddings are saved in Emb/ folder as <emb_dataset_U/Q<Fold-No>>.npy.
-    * The node and label embeddings are of dimension (#Nodes x L_COMPONENTS) and (#Labels x L_COMPONENTS) respectively.
+    * The node and label embeddings are of dimension (#Nodes x L_COMPONENTS) & (#Labels x L_COMPONENTS).
     * The Node Classification evaluation results are stored in - Results/ folder 
