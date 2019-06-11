@@ -14,7 +14,7 @@
                                                     |_ _ _ train_ids.npy
                                                     |_ _ _ val_ids.npy
 ## Usage:-
-    python main_algo.py --DATA_DIR <Dataset name> --ALPHA_BIAS <Alpha-bias for biased RW> --ALPHA <Proximity matrix weight> --LAMBDA <L2 regularization weight> --L_COMPONENTS <Dimension of projection>                
+    python main_algo.py --DATA_DIR <Dataset-name> --ALPHA_BIAS <Alpha-bias for biased RW> --ALPHA <Proximity matrix weight> --LAMBDA <L2 regularization weight> --L_COMPONENTS <Dimension of projection>                
     python main_algo.py --DATA_DIR cora --ALPHA_BIAS -2 --ALPHA 1.0 --LAMBDA 1.0 --L_COMPONENTS 16
     
 ## Output:-
