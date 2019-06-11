@@ -60,6 +60,7 @@ def init(config):
     ut.check_n_create(config.LOG_DIR)
     ut.check_n_create(config.RES_DIR)
     file_name = config.LOG_DIR + "_" + config.ALGO_NAME+".log"
+    config.FOLDER_SUFFIX = config.FOLDER_SUFFIX + "_" + config.DATA_DIR
     logging.basicConfig(filename=file_name, filemode='w', level=logging.DEBUG)
     return logging.getLogger(config.ALGO_NAME)
 
